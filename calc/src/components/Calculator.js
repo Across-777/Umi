@@ -1,6 +1,7 @@
 import React from 'react';
 import ButtonList from './ButtonList';
 
+//不使用此组件
 export default props => {
   const { value, setDisplay } = props;
 

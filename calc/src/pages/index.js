@@ -15,7 +15,6 @@ const Calc = props => {
 
   return (
     <div>
-      {/* <h2>{value}</h2> */}
       <input type="text" id="display" value={display} readOnly />
       <div>
         <ButtonList buttons={numberArr[0]} onClick={clickHandler}></ButtonList>
